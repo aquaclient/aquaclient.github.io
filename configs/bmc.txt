@@ -67,7 +67,7 @@ MODULE SET ShaderESPOutlineWidth NUMBER 1.0344827586206897
 MODULE SET ShaderESPShaderAlpha NUMBER 255.0
 MODULE SET ShaderESPChests BOOLEAN true
 MODULE SET ShaderESPColor COLOR -1571322
-MODULE TOGGLE ESP2D true
+MODULE TOGGLE ESP2D false
 MODULE SET ESP2DGlow BOOLEAN false
 MODULE SET ESP2DFade BOOLEAN true
 MODULE SET ESP2DClientColor BOOLEAN false
@@ -142,18 +142,24 @@ MODULE TOGGLE MCF true
 MODULE TOGGLE FakeBlock true
 MODULE TOGGLE ChestStealer true
 MODULE SET ChestStealerDelay NUMBER 77.58620689655173
-MODULE TOGGLE Scaffold false
+MODULE TOGGLE Scaffold true
 MODULE SET ScaffoldSprint BOOLEAN true
+MODULE SET ScaffoldEnableCalculate BOOLEAN true
+MODULE SET ScaffoldEnableSneak BOOLEAN false
 MODULE SET ScaffoldBlockCount BOOLEAN true
+MODULE SET ScaffoldBlockESP BOOLEAN false
 MODULE SET ScaffoldSwing BOOLEAN false
 MODULE SET ScaffoldDown BOOLEAN false
-MODULE SET ScaffoldMatrix BOOLEAN false
 MODULE SET ScaffoldSameY BOOLEAN false
 MODULE SET ScaffoldExpand BOOLEAN false
+MODULE SET ScaffoldAutoDisable BOOLEAN true
 MODULE SET ScaffoldBMCBoost BOOLEAN true
 MODULE SET ScaffoldLegitPlace BOOLEAN false
-MODULE SET ScaffoldExpandlength NUMBER 8.0
 MODULE SET ScaffoldReverseYaw BOOLEAN true
+MODULE SET ScaffoldSneakModify NUMBER 1.0
+MODULE SET ScaffoldExpandlength NUMBER 22.872340425531913
+MODULE SET ScaffoldYawPosition NUMBER 91.72413793103449
+MODULE SET ScaffoldRotationMode STRING Calculated
 MODULE SET ScaffoldShader STRING Jello
 MODULE SET ScaffoldTower STRING Watchdog
 MODULE TOGGLE InvMove true
@@ -247,5 +253,8 @@ MODULE SET AutoEnableShadow BOOLEAN true
 MODULE SET AutoEnableArraylist BOOLEAN true
 MODULE SET AutoEnableShaderMultiplier BOOLEAN true
 MODULE SET AutoEnableShaderESP BOOLEAN true
+MODULE TOGGLE Antibot false
+MODULE SET AntibotWatchdog BOOLEAN true
+MODULE SET AntibotMatrix BOOLEAN false
 MODULE TOGGLE TpAura false
 MODULE SET TpAuraTpDelay NUMBER 50.0
