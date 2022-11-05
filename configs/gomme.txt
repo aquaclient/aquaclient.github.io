@@ -1,0 +1,256 @@
+MODULE TOGGLE WorldColor false
+MODULE SET WorldColorColor COLOR -16174937
+MODULE TOGGLE Nofall false
+MODULE TOGGLE Killaura false
+MODULE SET KillauraRange NUMBER 4.32
+MODULE SET KillauraminCPS NUMBER 15.06
+MODULE SET KillauramaxCPS NUMBER 19.0
+MODULE SET KillauraRotationSpeed NUMBER 33.4051724137931
+MODULE SET KillauraInstantRotation BOOLEAN true
+MODULE SET KillauraAutoblock BOOLEAN false
+MODULE SET KillauraJumpFix BOOLEAN true
+MODULE SET KillauraTargetESP BOOLEAN true
+MODULE SET KillauraMouseSensiFix BOOLEAN true
+MODULE SET KillauraMouseDelayFix BOOLEAN false
+MODULE SET KillauraRangeBlock BOOLEAN false
+MODULE SET KillauraCPSFix BOOLEAN false
+MODULE SET KillauraWtap BOOLEAN true
+MODULE SET KillauraKeepSprint BOOLEAN false
+MODULE SET KillauraAntiBots BOOLEAN false
+MODULE SET KillauraRenderPitch BOOLEAN true
+MODULE SET KillauraRotations BOOLEAN true
+MODULE SET Killaura1.9 BOOLEAN false
+MODULE SET KillauraCubecraft BOOLEAN false
+MODULE SET KillauraCorrectMovement BOOLEAN true
+MODULE SET KillauraSilentMoveFix BOOLEAN true
+MODULE SET KillauraRandom BOOLEAN false
+MODULE SET KillauraLegitAttack BOOLEAN true
+MODULE SET KillauraThroughWalls BOOLEAN false
+MODULE SET KillauraMode STRING Watchdog
+MODULE TOGGLE Velocity false
+MODULE SET VelocityMatrixValue NUMBER 0.0
+MODULE SET VelocityMode STRING Cancel
+MODULE TOGGLE Sprint true
+MODULE TOGGLE AutoClicker false
+MODULE SET AutoClickerOnlyLeftClick BOOLEAN true
+MODULE SET AutoClicker1.9 BOOLEAN true
+MODULE SET AutoClickerminCPS NUMBER 8.0
+MODULE SET AutoClickermaxCPS NUMBER 19.0
+MODULE TOGGLE Blur true
+MODULE SET BlurSigma NUMBER 4.0
+MODULE SET BlurMode STRING Gaussian
+MODULE TOGGLE Shadow true
+MODULE SET ShadowSigma NUMBER 6.0
+MODULE TOGGLE ShaderMultiplier true
+MODULE SET ShaderMultiplierSigma NUMBER 9.0
+MODULE SET ShaderMultiplierMultiplier NUMBER 1.0603448275862069
+MODULE TOGGLE Arraylist true
+MODULE SET ArraylistFade BOOLEAN true
+MODULE SET ArraylistRainbow BOOLEAN false
+MODULE SET ArraylistBloom BOOLEAN true
+MODULE SET ArraylistSort BOOLEAN true
+MODULE SET ArraylistBackground BOOLEAN true
+MODULE SET ArraylistBloomMode STRING Shadow
+MODULE SET ArraylistSuffixMode STRING <>
+MODULE SET ArraylistFonts STRING Arial
+MODULE SET ArraylistColor COLOR -16187858
+MODULE TOGGLE ShaderESP true
+MODULE SET ShaderESPOutlineWidth NUMBER 1.0344827586206897
+MODULE SET ShaderESPShaderAlpha NUMBER 255.0
+MODULE SET ShaderESPChests BOOLEAN true
+MODULE SET ShaderESPGlow BOOLEAN false
+MODULE SET ShaderESPColor COLOR -16187858
+MODULE TOGGLE ESP2D true
+MODULE SET ESP2DGlow BOOLEAN false
+MODULE SET ESP2DFade BOOLEAN true
+MODULE SET ESP2DClientColor BOOLEAN true
+MODULE SET ESP2DColor COLOR -1116433
+MODULE TOGGLE Radar false
+MODULE SET RadarPosY NUMBER 187.7155172413793
+MODULE SET RadarSize NUMBER 52.03448275862069
+MODULE SET RadarMode STRING Shadow
+MODULE TOGGLE TargetHUD false
+MODULE SET TargetHUDClientColor BOOLEAN false
+MODULE SET TargetHUDCornerRadius NUMBER 4.0
+MODULE SET TargetHUDMode STRING Glow
+MODULE SET TargetHUDRenderMode STRING 2D
+MODULE SET TargetHUDTargetHUDMode STRING Tenacity2
+MODULE SET TargetHUDColor COLOR -2161061
+MODULE TOGGLE SessionInfo true
+MODULE SET SessionInfoPosY NUMBER 30.0
+MODULE SET SessionInfoPosX NUMBER 7.0
+MODULE SET SessionInfoConnectedPosX BOOLEAN true
+MODULE SET SessionInfoMode STRING Shadow
+MODULE SET SessionInfoInfoMode STRING Aqua
+MODULE TOGGLE HUD true
+MODULE SET HUDRed NUMBER 255.0
+MODULE SET HUDGreen NUMBER 26.0
+MODULE SET HUDBlue NUMBER 42.0
+MODULE SET HUDColor COLOR -16187858
+MODULE SET HUDWatermarks STRING Aqua
+MODULE TOGGLE GUI false
+MODULE SET GUIAutoPosReset BOOLEAN true
+MODULE SET GUIRoundedPicker BOOLEAN true
+MODULE SET GUIColorPickerGlow BOOLEAN false
+MODULE SET GUIDarkMode BOOLEAN true
+MODULE SET GUIGradiant BOOLEAN false
+MODULE SET GUIGUIScizzor NUMBER 16.0
+MODULE SET GUIColor COLOR -2161061
+MODULE SET GUIGlowMode STRING Complete
+MODULE SET GUIBooleanMode STRING Novoline
+MODULE SET GUIMode STRING Tenacity
+MODULE TOGGLE Eagle false
+MODULE TOGGLE Animations true
+MODULE SET AnimationsMode STRING Snip
+MODULE TOGGLE AutoHypixel false
+MODULE SET AutoHypixelMode STRING Insane
+MODULE TOGGLE Triggerbot false
+MODULE SET TriggerbotminCPS NUMBER 8.0
+MODULE SET TriggerbotmaxCPS NUMBER 19.0
+MODULE TOGGLE Fly false
+MODULE SET FlyMotionReset BOOLEAN true
+MODULE SET FlyFakeDMG BOOLEAN true
+MODULE SET FlyBoost NUMBER 2.6562499999999996
+MODULE SET FlySentinelSpeed NUMBER 1.65
+MODULE SET FlyMode STRING Cubecraft
+MODULE TOGGLE Disabler true
+MODULE SET DisablerWatchdogRandom BOOLEAN false
+MODULE SET DisablerModes STRING Intave
+MODULE TOGGLE Longjump false
+MODULE SET LongjumpNCPBoost NUMBER 1.35
+MODULE SET LongjumpMode STRING Watchdog
+MODULE TOGGLE Speed false
+MODULE SET SpeedMotionReset BOOLEAN true
+MODULE SET SpeedAutoDisable BOOLEAN false
+MODULE SET SpeedWatchdogBoost BOOLEAN false
+MODULE SET SpeedSpeed NUMBER 1.0
+MODULE SET SpeedTimerBoost NUMBER 1.1896551724137931
+MODULE SET SpeedYMotion NUMBER 0.42
+MODULE SET SpeedSentinelSpeed NUMBER 0.5249999999999999
+MODULE SET SpeedMode STRING Watchdog
+MODULE TOGGLE WorldTime true
+MODULE SET WorldTimeTime NUMBER 1.4482758620689655
+MODULE TOGGLE NoSlow false
+MODULE SET NoSlowMode STRING Watchdog
+MODULE TOGGLE MCF true
+MODULE TOGGLE FakeBlock false
+MODULE TOGGLE ChestStealer false
+MODULE SET ChestStealerDelay NUMBER 0.0
+MODULE TOGGLE Scaffold false
+MODULE SET ScaffoldSprint BOOLEAN false
+MODULE SET ScaffoldEnableCalculate BOOLEAN true
+MODULE SET ScaffoldEnableSneak BOOLEAN false
+MODULE SET ScaffoldBlockCount BOOLEAN true
+MODULE SET ScaffoldBlockESP BOOLEAN false
+MODULE SET ScaffoldIntave BOOLEAN false
+MODULE SET ScaffoldSwing BOOLEAN true
+MODULE SET ScaffoldDown BOOLEAN false
+MODULE SET ScaffoldSameY BOOLEAN false
+MODULE SET ScaffoldExpand BOOLEAN false
+MODULE SET ScaffoldAutoDisable BOOLEAN true
+MODULE SET ScaffoldBMCBoost BOOLEAN false
+MODULE SET ScaffoldLegitPlace BOOLEAN true
+MODULE SET ScaffoldReverseYaw BOOLEAN false
+MODULE SET ScaffoldSneakModify NUMBER 1.0
+MODULE SET ScaffoldExpandlength NUMBER 8.0
+MODULE SET ScaffoldYawPosition NUMBER 91.72413793103449
+MODULE SET ScaffoldRotationMode STRING Static
+MODULE SET ScaffoldShader STRING Glow
+MODULE SET ScaffoldTower STRING IntaveFast
+MODULE TOGGLE InvMove false
+MODULE SET InvMovePacketSpoof BOOLEAN false
+MODULE TOGGLE CustomScoreboard true
+MODULE SET CustomScoreboardShaders BOOLEAN true
+MODULE SET CustomScoreboardFade BOOLEAN false
+MODULE SET CustomScoreboardScorePosY NUMBER 147.02586206896552
+MODULE SET CustomScoreboardMode STRING Shadow
+MODULE TOGGLE CustomChat true
+MODULE SET CustomChatAlpha NUMBER 153.8793103448276
+MODULE SET CustomChatShaders BOOLEAN true
+MODULE SET CustomChatBlur BOOLEAN true
+MODULE SET CustomChatFade BOOLEAN false
+MODULE SET CustomChatFont BOOLEAN true
+MODULE SET CustomChatMode STRING Shadow
+MODULE TOGGLE InvManager true
+MODULE SET InvManagerDelay NUMBER 200.0
+MODULE SET InvManagerPrevSwords BOOLEAN true
+MODULE SET InvManagerOpenInv BOOLEAN true
+MODULE SET InvManagerFakeInv BOOLEAN false
+MODULE TOGGLE GuiElements false
+MODULE SET GuiElementsPosX NUMBER 344.40625
+MODULE SET GuiElementsPosY NUMBER 510.90624999999994
+MODULE SET GuiElementsWidth NUMBER 396.4375
+MODULE SET GuiElementsHeight NUMBER 510.90624999999994
+MODULE SET GuiElementsBackgroundAlpha NUMBER 68.58620689655173
+MODULE SET GuiElementsBlur BOOLEAN true
+MODULE SET GuiElementsCustomPic BOOLEAN true
+MODULE SET GuiElementsInvPic BOOLEAN true
+MODULE SET GuiElementsChestPic BOOLEAN true
+MODULE SET GuiElementsBackgroundColor BOOLEAN true
+MODULE SET GuiElementsMode STRING Aqua2
+MODULE TOGGLE TargetStrafe false
+MODULE SET TargetStrafeCircle BOOLEAN true
+MODULE SET TargetStrafeWatchdog BOOLEAN true
+MODULE SET TargetStrafeStrafeRange NUMBER 2.4749999999999996
+MODULE SET TargetStrafeLineWidth NUMBER 1.4655172413793103
+MODULE SET TargetStrafeOnlyJump BOOLEAN true
+MODULE TOGGLE Step false
+MODULE SET StepBoost NUMBER 0.1975
+MODULE SET StepBlockHeight NUMBER 1.0
+MODULE SET StepMode STRING Vanilla
+MODULE TOGGLE Glint true
+MODULE SET GlintColor COLOR -16272642
+MODULE TOGGLE KeyStrokes false
+MODULE SET KeyStrokesLeft|Right BOOLEAN false
+MODULE SET KeyStrokesClientColor BOOLEAN true
+MODULE SET KeyStrokesPosY NUMBER 113.79310344827587
+MODULE SET KeyStrokesColor COLOR -3143969
+MODULE TOGGLE CustomHurtEffekt true
+MODULE TOGGLE NoHurtCam true
+MODULE TOGGLE TimerRange true
+MODULE SET TimerRangeRange NUMBER 4.02
+MODULE SET TimerRangeBoost NUMBER 8.18103448275862
+MODULE SET TimerRangeOnHitTPTicks NUMBER 18.0
+MODULE SET TimerRangeOnHitTP BOOLEAN false
+MODULE TOGGLE Backtrack true
+MODULE SET BacktrackRange NUMBER 6.0
+MODULE SET BacktrackBacktrackMS NUMBER 369.3965517241379
+MODULE TOGGLE HeldItem false
+MODULE SET HeldItemSpeed NUMBER 12.5
+MODULE SET HeldItemScale NUMBER 0.28620689655172415
+MODULE SET HeldItemX NUMBER 0.10862068965517241
+MODULE SET HeldItemY NUMBER 0.11551724137931035
+MODULE SET HeldItemZ NUMBER -0.1
+MODULE TOGGLE AntiFireball true
+MODULE SET AntiFireballRange NUMBER 6.0
+MODULE SET AntiFireballminCPS NUMBER 17.0
+MODULE SET AntiFireballmaxCPS NUMBER 19.0
+MODULE TOGGLE CustomHotbar true
+MODULE TOGGLE Notifications true
+MODULE TOGGLE Regen false
+MODULE TOGGLE FastUse false
+MODULE SET FastUsePackets NUMBER 5.262068965517241
+MODULE TOGGLE BedFucker false
+MODULE TOGGLE KillMessage true
+MODULE TOGGLE AntiVoid false
+MODULE TOGGLE AutoTool true
+MODULE TOGGLE Fullbright false
+MODULE TOGGLE ChinaHat false
+MODULE SET ChinaHatBlur BOOLEAN true
+MODULE SET ChinaHatGlow BOOLEAN false
+MODULE SET ChinaHatColored BOOLEAN false
+MODULE SET ChinaHatColor COLOR -2764335
+MODULE TOGGLE Strafe false
+MODULE TOGGLE AutoEnable true
+MODULE SET AutoEnableVelocity BOOLEAN false
+MODULE SET AutoEnableBlur BOOLEAN true
+MODULE SET AutoEnableShadow BOOLEAN true
+MODULE SET AutoEnableArraylist BOOLEAN true
+MODULE SET AutoEnableShaderMultiplier BOOLEAN true
+MODULE SET AutoEnableShaderESP BOOLEAN true
+MODULE TOGGLE Antibot false
+MODULE SET AntibotWatchdog BOOLEAN true
+MODULE SET AntibotMatrix BOOLEAN false
+MODULE TOGGLE Nametags false
+MODULE TOGGLE TpAura false
+MODULE SET TpAuraTpDelay NUMBER 50.0
